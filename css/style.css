@@ -102,14 +102,39 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
-    
-}
+	.common-h2 h2{
+		font-size: 34px !important;
+	}
 
+    header .navbar {
+        padding: 10px !important;
+    }
+    ul.navbar-nav.justify-content-between.align-items-center.w-100 {
+        padding-left: 0px !important;
+    }
+
+	.banner_section .banner_text h1 {
+		font-size: 65px !important;
+	}
+
+    .footer .footer-newslatter input {
+        padding: 9px 40px 9px 5px !important;
+    }
+
+    .footer .footer-newslatter a {
+		padding: 11px 83px !important;
+    }
+
+	header .navbar .navbar-nav > li > a {
+		font-size: 13px !important;	
+	}
+}
 
 @media screen and (max-width: 990px) {
 }
 
 @media screen and (max-width: 767px) {
+	
 }
 
 @media screen and (max-width: 480px) {
@@ -141,7 +166,7 @@ a.common-button:hover {
 
 .common-h2 h2 {
     font-family: var(--main-font);
-    font-size: 48px !important;
+    font-size: 48px;
     font-weight: 400;
     line-height: 1.29em;
     letter-spacing: 1.5px;
@@ -187,8 +212,9 @@ a.common-button:hover {
 
 header .navbar .navbar-toggler {
     padding: 10px 15px;
-    background: #039ed7;
-    color: #fff;
+    background: var(--body-text);
+    /* color: #fff; */
+    /* border: none; */
 }
 
 header .navbar {
